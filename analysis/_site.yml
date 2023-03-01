@@ -1,7 +1,7 @@
-name: "R3CR"
+name: R3CR
 output_dir: ../docs
 navbar:
-  title: "R3CR"
+  title: R3CR
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/tiffanyqlu/R3CR
 output:
   workflowr::wflow_html:
     toc: yes
